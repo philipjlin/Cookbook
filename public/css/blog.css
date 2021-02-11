@@ -1,0 +1,39 @@
+body{
+
+  font-family: ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
+  background-color: white;
+  color: black;
+}
+
+header{
+
+  text-align: center;
+}
+
+footer{
+
+  text-align:center;
+}
+
+#pagetitle{
+
+  text-align: left;
+}
+
+#menu{
+
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+#blog{
+
+  text-align: center;
+}
+
+li{
+
+  display: inline;
+  padding: 25px;
+}
