@@ -38,41 +38,41 @@ This project was developed using the Laravel Framework (LAMP stack).
 ## Class Overview
 
     Domain Objects
-    - Recipe - represents a recipe with associated information.
-    - Tag - individual piece of information about a recipe.
-    - User - represents an application user with associated information.
+        - Recipe - represents a recipe with associated information.
+        - Tag - individual piece of information about a recipe.
+        - User - represents an application user with associated information.
 
+<br>
 
-Controllers
-
-    - AboutController - defines about page functions.
-    - AuthController - defines account and authentication functions.
-    - BlogController - defines blog page functions.
-    - HomeController - defines home page functions.
-    - RecipesController - defines recipe page functions.
-    - UserController - defines user in-app functionality.
+    Controllers
+        - AboutController - defines about page functions.
+        - AuthController - defines account and authentication functions.
+        - BlogController - defines blog page functions.
+        - HomeController - defines home page functions.
+        - RecipesController - defines recipe page functions.
+        - UserController - defines user in-app functionality.
 
 
 ## Views
-About
-
-    - index
-
-
-Auth
-
-    - login
-    - register
-
-
-Blog
-
-    - index
     
-    
-Home
+    About
+        - index
 
-    - index
+<br>
+
+    Auth
+        - login
+        - register
+
+<br>
+
+    Blog
+        - index
+    
+<br>
+    
+    Home
+        - index
 
 
 Recipes
