@@ -36,7 +36,7 @@ This project was developed using the Laravel framework, with coding done in PHP 
 
 
 ## Class Overview
-
+    
     Domain Objects
         - Recipe - represents a recipe with associated information.
         - Tag - individual piece of information about a recipe.
