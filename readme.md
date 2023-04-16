@@ -20,7 +20,7 @@ There will also be a blog component to the site, which allows users a way to dis
 
 
 ## Technologies
-This project was developed using the Laravel Framework (LAMP stack).
+This project was developed using the Laravel framework, with coding done in PHP and MySQL used for the database.
 
 
 ## High Level Components
