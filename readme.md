@@ -124,7 +124,9 @@ Users
 
 ## Database Sketch
 Table name: users
+
 Description: Will store individual users with account information
+
 Fields:
 ●	(int, primary key, auto_increment) id
 ●	(timestamp) created_at
@@ -139,7 +141,9 @@ Fields:
 
 
 Table name: recipes
+
 Description: Will store individual recipes that are a part of the user's online cookbook
+
 Fields:
 ●	(int, primary key, auto_increment) id
 ●	(timestamp) created_at
@@ -153,7 +157,9 @@ Fields:
 
 
 Table name: tags
+
 Description: Stores tags used in recipes to be searched
+
 Fields:
 ●	(int, primary key, auto_increment) id
 ●	(timestamp) created_at
@@ -162,7 +168,9 @@ Fields:
 
 
 Table name: recipe_tag
+
 Description: Pivot table between the recipes table and the tags table.
+
 Fields:
 ●	(int, primary key, auto_increment) id
 ●	(timestamp) created_at
