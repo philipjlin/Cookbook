@@ -24,15 +24,15 @@ This project was developed using the Laravel Framework (LAMP stack).
 
 
 ## High Level Components
-* Database with information about recipes
-* Table of user accounts with login and password info, with supporting operations
-* Table of recipes for each user, with supporting operations
-* User authentication service
-* CRUD operations controller for users
-* CRUD operations controller for recipes
-* Blog page for users
-* Administrator mode, with additional options
-* Detailed search bar for recipes in the database based on tags or keywords
+    * Database with information about recipes
+    * Table of user accounts with login and password info, with supporting operations
+    * Table of recipes for each user, with supporting operations
+    * User authentication service
+    * CRUD operations controller for users
+    * CRUD operations controller for recipes
+    * Blog page for users
+    * Administrator mode, with additional options
+    * Detailed search bar for recipes in the database based on tags or keywords
 
 
 ## Class Overview
@@ -74,51 +74,51 @@ This project was developed using the Laravel Framework (LAMP stack).
     Home
         - index
 
+<br>
 
-Recipes
+    Recipes
+        - index
+        - search
+        - create
+        - edit
+        - show
 
-    - index
-    - search
-    - create
-    - edit
-    - show
+<br>
 
+    Home
+        - index
 
-Home
+<br>
 
-    - index
-
-
-Users
-
-    - edit
-    - show
+    Users
+        - edit
+        - show
 
 
 
 ## Route Plan
-|   Purpose                 |   Method  |   URI                   |   Corresponding Controller Method |
-|   ---                     |   ---     |   ---                   |   ---                             |
-|   Home                    |   GET     |   /                     |   HomeController.getIndex         |
-|   Login                   |	GET     |	/login                |	  AuthController.getLogin         |
-|   Login                   |	POST    |	/login                |	  AuthController.postLogin        |
-|   Home/Logout             |	GET     |	/logout               |	  AuthController.getLogout        |
-|   User/Create             |	GET     |	/register             |   AuthController.getRegister      |
-|   Create User/Create      |	POST	|   /register             |   AuthController.postRegister     |
-|   User/Show               |	GET	    |   /{user}               |   UserController.getUser          |
-|   User/Edit (or Delete)   |	GET     |	/{user}/edit	      |   UserController.getEdit          |
-|   User/Edit (or Delete)   |	POST    |	/{user}/edit	      |   UserController.postEdit         |
-|   About                   |	GET     |	/about	              |   AboutController.getIndex        |
-|   Recipes Home            |	GET     |   /recipes	          |   RecipeController.getIndex       |
-|   Recipes MyRecipes       |	GET     |   /recipes/myrecipes    |	  RecipeController.getMyRecipes   |   
-|   Recipes/Search          |	GET     |	/recipes/search       |	  RecipeController.getSearch      |
-|   Recipes/Search          |	POST    |   /recipes/search       |	  RecipeController.postSearch     |
-|   Recipes/Create          |	GET     |   /recipes/create       |	  RecipeController.getCreate      |
-|   Recipes/Create          |	POST    |   /recipes/create       |	  RecipeController.postCreate     |
-|   Recipes/Show            |	GET     |   /recipes/{recipe}     |	  RecipeController.getRecipe      |
-|   Recipes/Edit(or Delete) |	GET     |   /recipes/{recipe}/edit|   RecipeController.getEdit        |
-|   Recipes/Edit(or Delete) |	POST    |   /recipes/{recipe}/edit|	  RecipeController.postEdit       |
-|   Blog                    |	GET     |   /blog                 |	  BlogController.getIndex         |
+    |   Purpose                 |   Method  |   URI                   |   Corresponding Controller Method |
+    |   ---                     |   ---     |   ---                   |   ---                             |
+    |   Home                    |   GET     |   /                     |   HomeController.getIndex         |
+    |   Login                   |	GET     |	/login                |	  AuthController.getLogin         |
+    |   Login                   |	POST    |	/login                |	  AuthController.postLogin        |
+    |   Home/Logout             |	GET     |	/logout               |	  AuthController.getLogout        |
+    |   User/Create             |	GET     |	/register             |   AuthController.getRegister      |
+    |   Create User/Create      |	POST	|   /register             |   AuthController.postRegister     |
+    |   User/Show               |	GET	    |   /{user}               |   UserController.getUser          |
+    |   User/Edit (or Delete)   |	GET     |	/{user}/edit	      |   UserController.getEdit          |
+    |   User/Edit (or Delete)   |	POST    |	/{user}/edit	      |   UserController.postEdit         |
+    |   About                   |	GET     |	/about	              |   AboutController.getIndex        |
+    |   Recipes Home            |	GET     |   /recipes	          |   RecipeController.getIndex       |
+    |   Recipes MyRecipes       |	GET     |   /recipes/myrecipes    |	  RecipeController.getMyRecipes   |   
+    |   Recipes/Search          |	GET     |	/recipes/search       |	  RecipeController.getSearch      |
+    |   Recipes/Search          |	POST    |   /recipes/search       |	  RecipeController.postSearch     |
+    |   Recipes/Create          |	GET     |   /recipes/create       |	  RecipeController.getCreate      |
+    |   Recipes/Create          |	POST    |   /recipes/create       |	  RecipeController.postCreate     |
+    |   Recipes/Show            |	GET     |   /recipes/{recipe}     |	  RecipeController.getRecipe      |
+    |   Recipes/Edit(or Delete) |	GET     |   /recipes/{recipe}/edit|   RecipeController.getEdit        |
+    |   Recipes/Edit(or Delete) |	POST    |   /recipes/{recipe}/edit|	  RecipeController.postEdit       |
+    |   Blog                    |	GET     |   /blog                 |	  BlogController.getIndex         |
 
 
 
@@ -167,7 +167,6 @@ Users
     ●	(timestamp) created_at
     ●	(timestamp) updated_at
     ●	(text) tag
-
 
 <br>
 
