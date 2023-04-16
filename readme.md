@@ -125,19 +125,19 @@ Users
 ## Database Sketch
 Table name: users
 
-Description: Will store individual users with account information
+    Description: Will store individual users with account information
 
-Fields:
-●	(int, primary key, auto_increment) id
-●	(timestamp) created_at
-●	(timestamp) updated_at
-●	(varchar) username
-●	(varchar) password
-●	(varchar) first_name
-●	(varchar) last_name
-●	(varchar) email
-●	(varchar) city
-●	(varchar) country
+    Fields:
+    ●	(int, primary key, auto_increment) id
+    ●	(timestamp) created_at
+    ●	(timestamp) updated_at
+    ●	(varchar) username
+    ●	(varchar) password
+    ●	(varchar) first_name
+    ●	(varchar) last_name
+    ●	(varchar) email
+    ●	(varchar) city
+    ●	(varchar) country
 
 
 Table name: recipes
