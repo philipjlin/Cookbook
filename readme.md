@@ -123,7 +123,7 @@ Users
 
 
 ## Database Sketch
-Table name: users
+    Table name: users
 
     Description: Will store individual users with account information
 
@@ -140,7 +140,7 @@ Table name: users
     ●	(varchar) country
 
 
-Table name: recipes
+    Table name: recipes
 
     Description: Will store individual recipes that are a part of the user's online cookbook
 
@@ -156,7 +156,7 @@ Table name: recipes
     ●	(text) tags
 
 
-Table name: tags
+    Table name: tags
 
     Description: Stores tags used in recipes to be searched
 
@@ -167,7 +167,8 @@ Table name: tags
     ●	(text) tag
 
 
-Table name: recipe_tag
+
+    Table name: recipe_tag
 
     Description: Pivot table between the recipes table and the tags table.
 
