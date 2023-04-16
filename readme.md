@@ -19,7 +19,7 @@ Registered users will also have a means means to upload recipes into the shared 
 There will also be a blog component to the site, which allows users a way to display all their recipes in a chronological style.
 
 
-##Technologies
+## Technologies
 This project was developed using the Laravel Framework (LAMP stack).
 
 
@@ -36,47 +36,63 @@ This project was developed using the Laravel Framework (LAMP stack).
 
 
 ## Class Overview
-Domain Objects <br>
-    - Recipe - represents a recipe with associated information. <br>
-    - Tag - individual piece of information about a recipe. <br>
-    - User - represents an application user with associated information. <br>
+Domain Objects
 
-Controllers <br>
-    - AboutController - defines about page functions. <br>
-    - AuthController - defines account and authentication functions. <br>
-    - BlogController - defines blog page functions. <br>
-    - HomeController - defines home page functions. <br>
-    - RecipesController - defines recipe page functions. <br>
-    - UserController - defines user in-app functionality. <br>
+    - Recipe - represents a recipe with associated information.
+    - Tag - individual piece of information about a recipe.
+    - User - represents an application user with associated information.
+
+
+Controllers
+
+    - AboutController - defines about page functions.
+    - AuthController - defines account and authentication functions.
+    - BlogController - defines blog page functions.
+    - HomeController - defines home page functions.
+    - RecipesController - defines recipe page functions.
+    - UserController - defines user in-app functionality.
 
 
 ## Views
-About <br>
-    - index <br>
+About
 
-Auth <br>
-    - login <br>
-    - register <br>
+    - index
 
-Blog <br>
-    - index <br>
 
-Home <br>
-    - index <br>
+Auth
 
-Recipes <br>
-    - index <br>
-    - search<br>
-    - create <br>
-    - edit <br>
-    - show <br>
+    - login
+    - register
 
-Home <br>
-    - index <br>
 
-Users <br>
-    - edit <br>
-    - show <br>
+Blog
+
+    - index
+    
+    
+Home
+
+    - index
+
+
+Recipes
+
+    - index
+    - search
+    - create
+    - edit
+    - show
+
+
+Home
+
+    - index
+
+
+Users
+
+    - edit
+    - show
 
 
 
