@@ -36,8 +36,8 @@ This project was developed using the Laravel Framework (LAMP stack).
 
 
 ## Class Overview
-Domain Objects
 
+    Domain Objects
     - Recipe - represents a recipe with associated information.
     - Tag - individual piece of information about a recipe.
     - User - represents an application user with associated information.
