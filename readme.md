@@ -139,6 +139,7 @@ Users
     ●	(varchar) city
     ●	(varchar) country
 
+<br>
 
     Table name: recipes
 
@@ -155,6 +156,7 @@ Users
     ●	(text) procedure
     ●	(text) tags
 
+<br>
 
     Table name: tags
 
@@ -167,6 +169,7 @@ Users
     ●	(text) tag
 
 
+<br>
 
     Table name: recipe_tag
 
