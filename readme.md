@@ -18,6 +18,8 @@ Registered users will also have a means means to upload recipes into the shared 
 
 There will also be a blog component to the site, which allows users a way to display all their recipes in a chronological style.
 
+
+##Technologies
 This project was developed using the Laravel Framework (LAMP stack).
 
 
