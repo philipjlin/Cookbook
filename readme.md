@@ -142,38 +142,38 @@ Table name: users
 
 Table name: recipes
 
-Description: Will store individual recipes that are a part of the user's online cookbook
+    Description: Will store individual recipes that are a part of the user's online cookbook
 
-Fields:
-●	(int, primary key, auto_increment) id
-●	(timestamp) created_at
-●	(timestamp) updated_at
-●	(text) description
-●	(varchar) title
-●	(int) prep_time
-●	(int) cooking_time
-●	(text) procedure
-●	(text) tags
+    Fields:
+    ●	(int, primary key, auto_increment) id
+    ●	(timestamp) created_at
+    ●	(timestamp) updated_at
+    ●	(text) description
+    ●	(varchar) title
+    ●	(int) prep_time
+    ●	(int) cooking_time
+    ●	(text) procedure
+    ●	(text) tags
 
 
 Table name: tags
 
-Description: Stores tags used in recipes to be searched
+    Description: Stores tags used in recipes to be searched
 
-Fields:
-●	(int, primary key, auto_increment) id
-●	(timestamp) created_at
-●	(timestamp) updated_at
-●	(text) tag
+    Fields:
+    ●	(int, primary key, auto_increment) id
+    ●	(timestamp) created_at
+    ●	(timestamp) updated_at
+    ●	(text) tag
 
 
 Table name: recipe_tag
 
-Description: Pivot table between the recipes table and the tags table.
+    Description: Pivot table between the recipes table and the tags table.
 
-Fields:
-●	(int, primary key, auto_increment) id
-●	(timestamp) created_at
-●	(timestamp) updated_at
-●	(int) recipe_id
-●	(int) tag_id
+    Fields:
+    ●	(int, primary key, auto_increment) id
+    ●	(timestamp) created_at
+    ●	(timestamp) updated_at
+    ●	(int) recipe_id
+    ●	(int) tag_id
